@@ -83,7 +83,7 @@ body {
 }
 
 .hero-image {
-  background-color: gray;
+  background-color: lightslategray;
   display: flex;
   width: 50%;
   height: 250px;
