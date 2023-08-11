@@ -157,3 +157,40 @@ body {
   color: var(--primary-color);
   text-align: right;
 }
+
+.cta {
+  padding: 80px 80px;
+}
+
+.cta-container {
+  background-color: var(--button-background-color);
+  border-radius: 8px;
+  display: flex;
+  padding: 30px 80px;
+  justify-content: space-evenly;
+}
+
+.cta-text h3 {
+  color: var(--light-text-color);
+}
+
+.cta-text p {
+  font-weight: 300;
+  color: var(--secondary-color);
+}
+
+.cta-container button {
+  background-color: transparent;
+  font-weight: 700;
+  border: 2px solid var(--secondary-color);
+  border-radius: 8px;
+  flex-basis: 100px;
+  color: var(--secondary-color);
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: var(--light-text-color);
+  padding: 30px;
+  text-align: center;
+}
