@@ -201,6 +201,7 @@ footer {
   }
   .hero-content {
     flex-direction: column;
+    text-align: center;
   }
   .hero-text {
     width: 100%;
@@ -213,10 +214,17 @@ footer {
   }
   .info-boxes-container {
     flex-direction: column;
-    align-items: center;
   }
   .info-box {
     width: 100%;
+  }
+  .box-text {
+    width: 50%;
+    text-align: center;
+  }
+  .quote {
+    padding: 10px 0;
+    font-size: 14px;
   }
   .cta-container {
     flex-direction: column;
