@@ -196,6 +196,9 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+  .hero, .cta-container, .info, .quote {
+    padding: 10px 0;
+  }
   .hero-content {
     flex-direction: column;
   }
